@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('img/main_background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner a {
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #DD7835;
+    text-align: center;
+    display: block;
+}
